@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#main .card-header{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+#main .card-header img{
+    height: 100%;
+}
+
+#main .card-body{
+    width: 100%;
+    text-align: center;
+}
+
+#main .card-body label{
+    font-size: 1.5em;
+}

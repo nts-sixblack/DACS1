@@ -1,0 +1,195 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#main{
+	margin-top: 50px;
+	width: 100%;
+	min-height: 400px;
+}
+
+/*-- Slider --*/
+
+#slider1{
+	height: 90vh;
+	width: 100%;
+}
+
+.slider {
+	position: relative;
+	padding: 0;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+a.callbacks_nav, ul.callbacks_tabs.callbacks2_tabs {
+	display: none;
+}
+
+ul.callbacks_tabs {
+	position: absolute;
+	z-index: 999;
+	bottom: 25%;
+	left: 46.5%;
+}
+
+ul.callbacks_tabs li {
+	display: inline-block;
+}
+
+.callbacks_tabs a{
+	visibility: hidden;
+}
+
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	visibility: visible;
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	border: 1px solid #CCC;
+	background: transparent;
+}
+
+.callbacks_here a:after {
+	border: 1px solid #CCC;
+	background: #FFF;
+}
+
+.layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+}
+
+.layer h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+}
+
+
+
+/*Slider*/
+
+
+
+/*Content*/
+.content{
+	text-align: center;
+}
+
+#lich-thi-dau ul{
+	list-style: none;
+}
+
+#lich-thi-dau .row{
+	/*background-color: */
+}
+
+#lich-thi-dau .row:hover{
+	background-color: lightblue;
+}
+
+#lich-thi-dau .row > .col{
+	border: 1px solid black;
+	text-align: center;
+	font-size: 3vw;
+	/*line-height: 100%;*/
+}
+
+
+/*//Content*/
+
+
+/*footer*/
+footer{
+	width: 100%;
+}
+
+footer .one {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+footer .one img {
+	width: 5em;
+	height: auto;
+}
+
+footer .two{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+}
+
+footer .two img{
+	width: 3em;
+	height: auto;
+}
+
+footer .button > div{
+	width: 300px;
+	margin: 0 auto;
+}
+
+footer .button > div button{
+	width: 8em;
+	border-radius: 2em;
+}
+
+footer .link > div{
+	width: 300px;
+	margin: 0 auto;
+}
+
+footer .link img{
+	width: 2em;
+	height: auto;
+}
+
+footer .link > p{
+	text-align: center;
+}
+/*//footer*/

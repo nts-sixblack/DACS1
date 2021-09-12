@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    margin-top: 100px;
+    width: 100%;
+    min-height: 300px;
+    /*background-color: red;*/
+}
+
+.card-body .card-text{
+    text-align: justify;
+}
+

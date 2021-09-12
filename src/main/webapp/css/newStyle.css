@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin-top: 0;
+}
+
+#main{
+    margin-top: 50px;
+}
+
+#main .col{
+    position: relative;
+}
+
+#main .col .content{
+    height: 200px;
+}
+
+#main .col button{
+    position: absolute;
+    bottom: 10px;
+}

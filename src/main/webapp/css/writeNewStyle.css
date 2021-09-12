@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    margin-top: 50px;
+}
+
+.contact {
+    background: url("image/contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+.contact h3{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form input.text, .contact-form textarea, .contact-form input.more_btn, .contact-form input.file, .contact-form img {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #777;
+    border-radius: 2px;
+    outline: none;
+    color: #FFF;
+}
+
+.contact-form textarea {
+    height: 300px;
+}
+
+.contact-form input.more_btn {
+    margin: 0;
+}
+
+

@@ -1,0 +1,49 @@
+footer{
+    width: 100%;
+}
+
+footer .one {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+footer .one img {
+    width: 5em;
+    height: auto;
+}
+
+footer .two{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+footer .two img{
+    width: 3em;
+    height: auto;
+}
+
+footer .button > div{
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer .button > div button{
+    width: 8em;
+    border-radius: 2em;
+}
+
+footer .link > div{
+    width: 300px;
+    margin: 0 auto;
+}
+
+footer .link img{
+    width: 2em;
+    height: auto;
+}
+
+footer .link > p{
+    text-align: center;
+}
